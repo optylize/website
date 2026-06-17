@@ -3,21 +3,13 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-
-  // ✅ add this line:
-  "homepage": "https://optylize.github.io/website",
-
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write .",
-
-    // ✅ add these two lines:
-    "predeploy": "bun run build",
-    "deploy": "gh-pages -d dist"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
